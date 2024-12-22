@@ -1,12 +1,37 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\USER\\Desktop\\AB205\\HomeTaskAPI\\EmployeeManagement\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{53D9E290-B0B0-4A43-8EDD-2E97C037933B}|EmployeeManagement.API\\EmployeeManagement.API.csproj|c:\\users\\user\\desktop\\ab205\\hometaskapi\\employeemanagement\\employeemanagement.api\\controllers\\accountscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{53D9E290-B0B0-4A43-8EDD-2E97C037933B}|EmployeeManagement.API\\EmployeeManagement.API.csproj|solutionrelative:employeemanagement.api\\controllers\\accountscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": []
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AccountsController.cs",
+              "DocumentMoniker": "C:\\Users\\USER\\Desktop\\AB205\\HomeTaskAPI\\EmployeeManagement\\EmployeeManagement.API\\Controllers\\AccountsController.cs",
+              "RelativeDocumentMoniker": "EmployeeManagement.API\\Controllers\\AccountsController.cs",
+              "ToolTip": "C:\\Users\\USER\\Desktop\\AB205\\HomeTaskAPI\\EmployeeManagement\\EmployeeManagement.API\\Controllers\\AccountsController.cs",
+              "RelativeToolTip": "EmployeeManagement.API\\Controllers\\AccountsController.cs",
+              "ViewState": "AgIAABkAAAAAAAAAAAAAwCAAAAA6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-22T23:08:46.395Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
     }
   ]
 }

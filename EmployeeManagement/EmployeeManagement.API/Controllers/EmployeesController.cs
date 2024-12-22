@@ -49,7 +49,7 @@ public class EmployeesController : ControllerBase
         }
     }
 
-    [HttpPost("Update", Name = "UpdateEmployee")]
+    [HttpPut("Update", Name = "UpdateEmployee")]
     public async Task<ActionResult<Employee>> UpdateEmployee(EmployeeUpdateDto employeeDto)
     {
         try

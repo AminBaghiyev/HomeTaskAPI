@@ -1,5 +1,84 @@
 [
   {
+    "ContainingType": "EmployeeManagement.API.Controllers.AccountsController",
+    "Method": "GetAllUsers",
+    "RelativePath": "api/v1/Accounts/AllUsers",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EmployeeManagement.API.Controllers.AccountsController",
+    "Method": "ChangePassword",
+    "RelativePath": "api/v1/Accounts/ChangePassword",
+    "HttpMethod": "PATCH",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "EmployeeManagement.BL.DTOs.ChangePasswordDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EmployeeManagement.API.Controllers.AccountsController",
+    "Method": "ConfirmEmail",
+    "RelativePath": "api/v1/Accounts/ConfirmEmail",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "userId",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "token",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EmployeeManagement.API.Controllers.AccountsController",
+    "Method": "Register",
+    "RelativePath": "api/v1/Accounts/Register",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "EmployeeManagement.BL.DTOs.CreateUserDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EmployeeManagement.API.Controllers.AccountsController",
+    "Method": "GetUser",
+    "RelativePath": "api/v1/Accounts/User",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "email",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "EmployeeManagement.API.Controllers.DepartmentsController",
     "Method": "GetAll",
     "RelativePath": "api/v1/Departments",
@@ -95,7 +174,7 @@
     "ContainingType": "EmployeeManagement.API.Controllers.DepartmentsController",
     "Method": "UpdateDepartment",
     "RelativePath": "api/v1/Departments/Update",
-    "HttpMethod": "POST",
+    "HttpMethod": "PUT",
     "IsController": true,
     "Order": 0,
     "Parameters": [
@@ -214,7 +293,7 @@
     "ContainingType": "EmployeeManagement.API.Controllers.EmployeesController",
     "Method": "UpdateEmployee",
     "RelativePath": "api/v1/Employees/Update",
-    "HttpMethod": "POST",
+    "HttpMethod": "PUT",
     "IsController": true,
     "Order": 0,
     "Parameters": [

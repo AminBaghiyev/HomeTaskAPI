@@ -7,7 +7,6 @@ public class Employee : BaseAuditableEntity
 {
     public string FirstName { get; set; }
     public string LastName { get; set; }
-    [Column(TypeName = "decimal(10,2)")]
     public decimal Salary { get; set; }
     public string Job { get; set; }
     public int ExperienceYear { get; set; }

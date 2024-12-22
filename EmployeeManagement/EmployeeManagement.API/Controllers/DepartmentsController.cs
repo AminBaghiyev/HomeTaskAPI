@@ -42,7 +42,7 @@ public class DepartmentsController : ControllerBase
         return StatusCode(StatusCodes.Status201Created, await _departmentService.CreateAsync(departmentDto));
     }
 
-    [HttpPost("Update", Name = "UpdateDepartment")]
+    [HttpPut("Update", Name = "UpdateDepartment")]
     public async Task<ActionResult<Department>> UpdateDepartment(DepartmentUpdateDto departmentDto)
     {
         try
