@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\USER\\Desktop\\AB205\\HomeTaskAPI\\BookApiApp\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{12396758-66F0-429E-A3A4-194DDE6DBB8B}|Book.API\\Book.API.csproj|c:\\users\\user\\desktop\\ab205\\hometaskapi\\bookapiapp\\book.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{12396758-66F0-429E-A3A4-194DDE6DBB8B}|Book.API\\Book.API.csproj|solutionrelative:book.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\USER\\Desktop\\AB205\\HomeTaskAPI\\BookApiApp\\Book.API\\Program.cs",
+              "RelativeDocumentMoniker": "Book.API\\Program.cs",
+              "ToolTip": "C:\\Users\\USER\\Desktop\\AB205\\HomeTaskAPI\\BookApiApp\\Book.API\\Program.cs",
+              "RelativeToolTip": "Book.API\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-25T23:34:02.235Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

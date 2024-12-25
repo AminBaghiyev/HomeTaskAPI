@@ -1,0 +1,53 @@
+C:\Users\Narmin Shivaxanova\source\repos\BookApiApp\Book.BL\bin\Debug\net8.0\Book.BL.deps.json
+C:\Users\Narmin Shivaxanova\source\repos\BookApiApp\Book.BL\bin\Debug\net8.0\Book.BL.dll
+C:\Users\Narmin Shivaxanova\source\repos\BookApiApp\Book.BL\bin\Debug\net8.0\Book.BL.pdb
+C:\Users\Narmin Shivaxanova\source\repos\BookApiApp\Book.BL\bin\Debug\net8.0\Book.Core.dll
+C:\Users\Narmin Shivaxanova\source\repos\BookApiApp\Book.BL\bin\Debug\net8.0\Book.Data.dll
+C:\Users\Narmin Shivaxanova\source\repos\BookApiApp\Book.BL\bin\Debug\net8.0\Book.Data.pdb
+C:\Users\Narmin Shivaxanova\source\repos\BookApiApp\Book.BL\bin\Debug\net8.0\Book.Core.pdb
+C:\Users\Narmin Shivaxanova\source\repos\BookApiApp\Book.BL\obj\Debug\net8.0\Book.BL.csproj.AssemblyReference.cache
+C:\Users\Narmin Shivaxanova\source\repos\BookApiApp\Book.BL\obj\Debug\net8.0\Book.BL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Narmin Shivaxanova\source\repos\BookApiApp\Book.BL\obj\Debug\net8.0\Book.BL.AssemblyInfoInputs.cache
+C:\Users\Narmin Shivaxanova\source\repos\BookApiApp\Book.BL\obj\Debug\net8.0\Book.BL.AssemblyInfo.cs
+C:\Users\Narmin Shivaxanova\source\repos\BookApiApp\Book.BL\obj\Debug\net8.0\Book.BL.csproj.CoreCompileInputs.cache
+C:\Users\Narmin Shivaxanova\source\repos\BookApiApp\Book.BL\obj\Debug\net8.0\Book.BL.csproj.Up2Date
+C:\Users\Narmin Shivaxanova\source\repos\BookApiApp\Book.BL\obj\Debug\net8.0\Book.BL.dll
+C:\Users\Narmin Shivaxanova\source\repos\BookApiApp\Book.BL\obj\Debug\net8.0\refint\Book.BL.dll
+C:\Users\Narmin Shivaxanova\source\repos\BookApiApp\Book.BL\obj\Debug\net8.0\Book.BL.pdb
+C:\Users\Narmin Shivaxanova\source\repos\BookApiApp\Book.BL\obj\Debug\net8.0\ref\Book.BL.dll
+C:\Users\narmin.shivakhanova\source\repos\BookApiApp\Book.BL\obj\Debug\net8.0\Book.BL.csproj.AssemblyReference.cache
+C:\Users\narmin.shivakhanova\source\repos\BookApiApp\Book.BL\obj\Debug\net8.0\Book.BL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\narmin.shivakhanova\source\repos\BookApiApp\Book.BL\obj\Debug\net8.0\Book.BL.AssemblyInfoInputs.cache
+C:\Users\narmin.shivakhanova\source\repos\BookApiApp\Book.BL\obj\Debug\net8.0\Book.BL.AssemblyInfo.cs
+C:\Users\narmin.shivakhanova\source\repos\BookApiApp\Book.BL\obj\Debug\net8.0\Book.BL.csproj.CoreCompileInputs.cache
+C:\Users\narmin.shivakhanova\source\repos\BookApiApp\Book.BL\obj\Debug\net8.0\Book.BL.sourcelink.json
+C:\Users\narmin.shivakhanova\source\repos\BookApiApp\Book.BL\obj\Debug\net8.0\Book.BL.dll
+C:\Users\narmin.shivakhanova\source\repos\BookApiApp\Book.BL\obj\Debug\net8.0\refint\Book.BL.dll
+C:\Users\narmin.shivakhanova\source\repos\BookApiApp\Book.BL\obj\Debug\net8.0\Book.BL.pdb
+C:\Users\narmin.shivakhanova\source\repos\BookApiApp\Book.BL\bin\Debug\net8.0\Book.BL.deps.json
+C:\Users\narmin.shivakhanova\source\repos\BookApiApp\Book.BL\bin\Debug\net8.0\Book.BL.dll
+C:\Users\narmin.shivakhanova\source\repos\BookApiApp\Book.BL\bin\Debug\net8.0\Book.BL.pdb
+C:\Users\narmin.shivakhanova\source\repos\BookApiApp\Book.BL\bin\Debug\net8.0\Book.Core.dll
+C:\Users\narmin.shivakhanova\source\repos\BookApiApp\Book.BL\bin\Debug\net8.0\Book.Data.dll
+C:\Users\narmin.shivakhanova\source\repos\BookApiApp\Book.BL\bin\Debug\net8.0\Book.Data.pdb
+C:\Users\narmin.shivakhanova\source\repos\BookApiApp\Book.BL\bin\Debug\net8.0\Book.Core.pdb
+C:\Users\narmin.shivakhanova\source\repos\BookApiApp\Book.BL\obj\Debug\net8.0\Book.BL.csproj.Up2Date
+C:\Users\narmin.shivakhanova\source\repos\BookApiApp\Book.BL\obj\Debug\net8.0\ref\Book.BL.dll
+C:\Users\USER\Desktop\AB205\HomeTaskAPI\BookApiApp\Book.BL\bin\Debug\net8.0\Book.BL.deps.json
+C:\Users\USER\Desktop\AB205\HomeTaskAPI\BookApiApp\Book.BL\bin\Debug\net8.0\Book.BL.dll
+C:\Users\USER\Desktop\AB205\HomeTaskAPI\BookApiApp\Book.BL\bin\Debug\net8.0\Book.BL.pdb
+C:\Users\USER\Desktop\AB205\HomeTaskAPI\BookApiApp\Book.BL\bin\Debug\net8.0\Book.Core.dll
+C:\Users\USER\Desktop\AB205\HomeTaskAPI\BookApiApp\Book.BL\bin\Debug\net8.0\Book.Data.dll
+C:\Users\USER\Desktop\AB205\HomeTaskAPI\BookApiApp\Book.BL\bin\Debug\net8.0\Book.Data.pdb
+C:\Users\USER\Desktop\AB205\HomeTaskAPI\BookApiApp\Book.BL\bin\Debug\net8.0\Book.Core.pdb
+C:\Users\USER\Desktop\AB205\HomeTaskAPI\BookApiApp\Book.BL\obj\Debug\net8.0\Book.BL.csproj.AssemblyReference.cache
+C:\Users\USER\Desktop\AB205\HomeTaskAPI\BookApiApp\Book.BL\obj\Debug\net8.0\Book.BL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\USER\Desktop\AB205\HomeTaskAPI\BookApiApp\Book.BL\obj\Debug\net8.0\Book.BL.AssemblyInfoInputs.cache
+C:\Users\USER\Desktop\AB205\HomeTaskAPI\BookApiApp\Book.BL\obj\Debug\net8.0\Book.BL.AssemblyInfo.cs
+C:\Users\USER\Desktop\AB205\HomeTaskAPI\BookApiApp\Book.BL\obj\Debug\net8.0\Book.BL.csproj.CoreCompileInputs.cache
+C:\Users\USER\Desktop\AB205\HomeTaskAPI\BookApiApp\Book.BL\obj\Debug\net8.0\Book.BL.sourcelink.json
+C:\Users\USER\Desktop\AB205\HomeTaskAPI\BookApiApp\Book.BL\obj\Debug\net8.0\Book.BL.csproj.Up2Date
+C:\Users\USER\Desktop\AB205\HomeTaskAPI\BookApiApp\Book.BL\obj\Debug\net8.0\Book.BL.dll
+C:\Users\USER\Desktop\AB205\HomeTaskAPI\BookApiApp\Book.BL\obj\Debug\net8.0\refint\Book.BL.dll
+C:\Users\USER\Desktop\AB205\HomeTaskAPI\BookApiApp\Book.BL\obj\Debug\net8.0\Book.BL.pdb
+C:\Users\USER\Desktop\AB205\HomeTaskAPI\BookApiApp\Book.BL\obj\Debug\net8.0\ref\Book.BL.dll

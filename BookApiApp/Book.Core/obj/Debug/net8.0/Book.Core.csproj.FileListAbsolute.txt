@@ -1,0 +1,38 @@
+C:\Users\Narmin Shivaxanova\source\repos\BookApiApp\Book.Core\bin\Debug\net8.0\Book.Core.deps.json
+C:\Users\Narmin Shivaxanova\source\repos\BookApiApp\Book.Core\bin\Debug\net8.0\Book.Core.dll
+C:\Users\Narmin Shivaxanova\source\repos\BookApiApp\Book.Core\bin\Debug\net8.0\Book.Core.pdb
+C:\Users\Narmin Shivaxanova\source\repos\BookApiApp\Book.Core\obj\Debug\net8.0\Book.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Narmin Shivaxanova\source\repos\BookApiApp\Book.Core\obj\Debug\net8.0\Book.Core.AssemblyInfoInputs.cache
+C:\Users\Narmin Shivaxanova\source\repos\BookApiApp\Book.Core\obj\Debug\net8.0\Book.Core.AssemblyInfo.cs
+C:\Users\Narmin Shivaxanova\source\repos\BookApiApp\Book.Core\obj\Debug\net8.0\Book.Core.csproj.CoreCompileInputs.cache
+C:\Users\Narmin Shivaxanova\source\repos\BookApiApp\Book.Core\obj\Debug\net8.0\Book.Core.dll
+C:\Users\Narmin Shivaxanova\source\repos\BookApiApp\Book.Core\obj\Debug\net8.0\refint\Book.Core.dll
+C:\Users\Narmin Shivaxanova\source\repos\BookApiApp\Book.Core\obj\Debug\net8.0\Book.Core.pdb
+C:\Users\Narmin Shivaxanova\source\repos\BookApiApp\Book.Core\obj\Debug\net8.0\ref\Book.Core.dll
+C:\Users\Narmin Shivaxanova\source\repos\BookApiApp\Book.Core\obj\Debug\net8.0\Book.Core.csproj.AssemblyReference.cache
+C:\Users\narmin.shivakhanova\source\repos\BookApiApp\Book.Core\bin\Debug\net8.0\Book.Core.deps.json
+C:\Users\narmin.shivakhanova\source\repos\BookApiApp\Book.Core\bin\Debug\net8.0\Book.Core.dll
+C:\Users\narmin.shivakhanova\source\repos\BookApiApp\Book.Core\bin\Debug\net8.0\Book.Core.pdb
+C:\Users\narmin.shivakhanova\source\repos\BookApiApp\Book.Core\obj\Debug\net8.0\Book.Core.csproj.AssemblyReference.cache
+C:\Users\narmin.shivakhanova\source\repos\BookApiApp\Book.Core\obj\Debug\net8.0\Book.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\narmin.shivakhanova\source\repos\BookApiApp\Book.Core\obj\Debug\net8.0\Book.Core.AssemblyInfoInputs.cache
+C:\Users\narmin.shivakhanova\source\repos\BookApiApp\Book.Core\obj\Debug\net8.0\Book.Core.AssemblyInfo.cs
+C:\Users\narmin.shivakhanova\source\repos\BookApiApp\Book.Core\obj\Debug\net8.0\Book.Core.csproj.CoreCompileInputs.cache
+C:\Users\narmin.shivakhanova\source\repos\BookApiApp\Book.Core\obj\Debug\net8.0\Book.Core.sourcelink.json
+C:\Users\narmin.shivakhanova\source\repos\BookApiApp\Book.Core\obj\Debug\net8.0\Book.Core.dll
+C:\Users\narmin.shivakhanova\source\repos\BookApiApp\Book.Core\obj\Debug\net8.0\refint\Book.Core.dll
+C:\Users\narmin.shivakhanova\source\repos\BookApiApp\Book.Core\obj\Debug\net8.0\Book.Core.pdb
+C:\Users\narmin.shivakhanova\source\repos\BookApiApp\Book.Core\obj\Debug\net8.0\ref\Book.Core.dll
+C:\Users\USER\Desktop\AB205\HomeTaskAPI\BookApiApp\Book.Core\bin\Debug\net8.0\Book.Core.deps.json
+C:\Users\USER\Desktop\AB205\HomeTaskAPI\BookApiApp\Book.Core\bin\Debug\net8.0\Book.Core.dll
+C:\Users\USER\Desktop\AB205\HomeTaskAPI\BookApiApp\Book.Core\bin\Debug\net8.0\Book.Core.pdb
+C:\Users\USER\Desktop\AB205\HomeTaskAPI\BookApiApp\Book.Core\obj\Debug\net8.0\Book.Core.csproj.AssemblyReference.cache
+C:\Users\USER\Desktop\AB205\HomeTaskAPI\BookApiApp\Book.Core\obj\Debug\net8.0\Book.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\USER\Desktop\AB205\HomeTaskAPI\BookApiApp\Book.Core\obj\Debug\net8.0\Book.Core.AssemblyInfoInputs.cache
+C:\Users\USER\Desktop\AB205\HomeTaskAPI\BookApiApp\Book.Core\obj\Debug\net8.0\Book.Core.AssemblyInfo.cs
+C:\Users\USER\Desktop\AB205\HomeTaskAPI\BookApiApp\Book.Core\obj\Debug\net8.0\Book.Core.csproj.CoreCompileInputs.cache
+C:\Users\USER\Desktop\AB205\HomeTaskAPI\BookApiApp\Book.Core\obj\Debug\net8.0\Book.Core.sourcelink.json
+C:\Users\USER\Desktop\AB205\HomeTaskAPI\BookApiApp\Book.Core\obj\Debug\net8.0\Book.Core.dll
+C:\Users\USER\Desktop\AB205\HomeTaskAPI\BookApiApp\Book.Core\obj\Debug\net8.0\refint\Book.Core.dll
+C:\Users\USER\Desktop\AB205\HomeTaskAPI\BookApiApp\Book.Core\obj\Debug\net8.0\Book.Core.pdb
+C:\Users\USER\Desktop\AB205\HomeTaskAPI\BookApiApp\Book.Core\obj\Debug\net8.0\ref\Book.Core.dll
