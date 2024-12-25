@@ -72,13 +72,17 @@ public class AccountService : IAccountService
 
         if(!await _userManager.CheckPasswordAsync(user, dto.Password)) throw new UserLoginCouldNotBeVerifiedException();
 
+        IEnumerable<string> roles = await _userManager.GetRolesAsync(user);
+        string role = roles.FirstOrDefault() ?? UserRoles.User.ToString();
+
         IEnumerable<Claim> payload =
         [
             new("FirstName", user.FirstName ?? "null"),
             new("LastName", user.LastName ?? "null"),
             new("UserName", user.UserName ?? "null"),
             new("Email", user.Email ?? "null"),
-            new("PhoneNumber", user.PhoneNumber ?? "null")
+            new("PhoneNumber", user.PhoneNumber ?? "null"),
+            new(ClaimTypes.Role, role)
         ];
 
         return _jwtTokenService.GenerateToken(payload);

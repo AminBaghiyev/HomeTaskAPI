@@ -6,7 +6,11 @@ var builder = WebApplication.CreateBuilder(args);
 
 builder.Services.AddDALServices();
 builder.Services.AddBusinessServices();
-builder.Services.AddAPIServices();
+builder.Services.AddAPIServices(
+    builder.Configuration["JWT:SecretKey"],
+    builder.Configuration["JWT:Audience"],
+    builder.Configuration["JWT:Issuer"]
+);
 
 builder.Services.AddControllers()
     .AddJsonOptions(options =>

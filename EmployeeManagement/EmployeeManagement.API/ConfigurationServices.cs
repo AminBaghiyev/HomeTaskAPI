@@ -1,12 +1,15 @@
 ﻿using EmployeeManagement.Core.Entities;
 using EmployeeManagement.DAL.Contexts;
+using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.AspNetCore.Identity;
+using Microsoft.IdentityModel.Tokens;
+using System.Text;
 
 namespace EmployeeManagement.API;
 
 public static class ConfigurationServices
 {
-    public static void AddAPIServices(this IServiceCollection services)
+    public static void AddAPIServices(this IServiceCollection services, string secretKey, string issuer, string audience)
     {
         services.AddIdentity<AppUser, IdentityRole>
             (options =>
@@ -22,5 +25,26 @@ public static class ConfigurationServices
             })
             .AddEntityFrameworkStores<AppDbContext>()
             .AddDefaultTokenProviders();
+
+        services.AddAuthentication(cfg => {
+            cfg.DefaultAuthenticateScheme = JwtBearerDefaults.AuthenticationScheme;
+            cfg.DefaultChallengeScheme = JwtBearerDefaults.AuthenticationScheme;
+            cfg.DefaultScheme = JwtBearerDefaults.AuthenticationScheme;
+        }).AddJwtBearer(x => {
+
+            x.TokenValidationParameters = new TokenValidationParameters
+            {
+
+                IssuerSigningKey = new SymmetricSecurityKey(
+                    Encoding.UTF8
+                    .GetBytes(secretKey)
+                ),
+                ValidateIssuer = true,
+                ValidateAudience = true,
+                ValidateIssuerSigningKey = true,
+                ValidAudience = audience,
+                ValidIssuer = issuer
+            };
+        });
     }
 }
