@@ -69,6 +69,32 @@ public class AccountsController : ControllerBase
 		}
     }
 
+    [HttpPost("Login")]
+    public async Task<IActionResult> Login(LoginUserDto dto)
+    {
+        if (!ModelState.IsValid)
+        {
+            return BadRequest(ModelState);
+        }
+
+        try
+        {
+            return StatusCode(StatusCodes.Status200OK, await _accountService.LoginAsync(dto));
+        }
+        catch (EntityNotFoundException ex)
+        {
+            return StatusCode(StatusCodes.Status404NotFound, new { message = ex.Message });
+        }
+        catch (UserLoginCouldNotBeVerifiedException ex)
+        {
+            return StatusCode(StatusCodes.Status400BadRequest, new { message = ex.Message });
+        }
+        catch (Exception ex)
+        {
+            return StatusCode(StatusCodes.Status500InternalServerError, new { message = ex.Message });
+        }
+    }
+
     [HttpGet("ConfirmEmail")]
     public async Task<IActionResult> ConfirmEmail(string userId, string token)
     {

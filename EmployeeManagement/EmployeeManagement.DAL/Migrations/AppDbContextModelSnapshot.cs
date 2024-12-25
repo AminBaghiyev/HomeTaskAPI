@@ -95,6 +95,25 @@ namespace EmployeeManagement.DAL.Migrations
                         .HasFilter("[NormalizedUserName] IS NOT NULL");
 
                     b.ToTable("AspNetUsers", (string)null);
+
+                    b.HasData(
+                        new
+                        {
+                            Id = "fde24d99-47df-421a-8cd2-ad8febdbf096",
+                            AccessFailedCount = 0,
+                            ConcurrencyStamp = "70395b89-855d-4c71-8ff1-fdeb7ec9cccb",
+                            EmailConfirmed = true,
+                            FirstName = "Admin",
+                            LastName = "Admin",
+                            LockoutEnabled = false,
+                            NormalizedUserName = "ADMIN",
+                            PasswordHash = "AQAAAAIAAYagAAAAEAQA/hZjlD+9E+8bGaHZ5F8m0y8y9U4t/pCwsBKAGJKSKAX+IqONWrJsPGPafJfTng==",
+                            PhoneNumber = "+994 70 123 45 67",
+                            PhoneNumberConfirmed = false,
+                            SecurityStamp = "6b0923ff-ef22-4553-bea9-812a6d4e2ef0",
+                            TwoFactorEnabled = false,
+                            UserName = "admin"
+                        });
                 });
 
             modelBuilder.Entity("EmployeeManagement.Core.Entities.Department", b =>
@@ -199,6 +218,20 @@ namespace EmployeeManagement.DAL.Migrations
                         .HasFilter("[NormalizedName] IS NOT NULL");
 
                     b.ToTable("AspNetRoles", (string)null);
+
+                    b.HasData(
+                        new
+                        {
+                            Id = "a9ad24d3-e4fe-46bb-b8f1-578eb33d8ad7",
+                            Name = "Admin",
+                            NormalizedName = "ADMIN"
+                        },
+                        new
+                        {
+                            Id = "18768c8f-f7cf-45c2-b875-1f543935a1f3",
+                            Name = "User",
+                            NormalizedName = "USER"
+                        });
                 });
 
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityRoleClaim<string>", b =>
@@ -286,6 +319,13 @@ namespace EmployeeManagement.DAL.Migrations
                     b.HasIndex("RoleId");
 
                     b.ToTable("AspNetUserRoles", (string)null);
+
+                    b.HasData(
+                        new
+                        {
+                            UserId = "fde24d99-47df-421a-8cd2-ad8febdbf096",
+                            RoleId = "a9ad24d3-e4fe-46bb-b8f1-578eb33d8ad7"
+                        });
                 });
 
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityUserToken<string>", b =>

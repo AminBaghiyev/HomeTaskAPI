@@ -7,6 +7,9 @@ using EmployeeManagement.BL.Exceptions;
 using EmployeeManagement.BL.Utilities;
 using Microsoft.AspNetCore.Http;
 using Microsoft.EntityFrameworkCore;
+using System.Security.Claims;
+using EmployeeManagement.BL.ExternalServices.Interfaces;
+using EmployeeManagement.Core.Enums;
 
 namespace EmployeeManagement.BL.Services.Abstractions;
 
@@ -14,15 +17,19 @@ public class AccountService : IAccountService
 {
     readonly IHttpContextAccessor _httpContextAccessor;
     readonly EmailService _emailService;
+    readonly RoleManager<IdentityRole> _roleManager;
     readonly UserManager<AppUser> _userManager;
+    readonly IJWTTokenService _jwtTokenService;
     readonly IMapper _mapper;
 
-    public AccountService(IMapper mapper, UserManager<AppUser> userManager, EmailService emailService, IHttpContextAccessor httpContextAccessor)
+    public AccountService(IMapper mapper, UserManager<AppUser> userManager, EmailService emailService, IHttpContextAccessor httpContextAccessor, IJWTTokenService jwtTokenService, RoleManager<IdentityRole> roleManager)
     {
         _mapper = mapper;
         _userManager = userManager;
         _emailService = emailService;
         _httpContextAccessor = httpContextAccessor;
+        _jwtTokenService = jwtTokenService;
+        _roleManager = roleManager;
     }
 
     public async Task<bool> ChangePasswordAsync(ChangePasswordDto dto)
@@ -59,6 +66,24 @@ public class AccountService : IAccountService
         return await _userManager.FindByEmailAsync(email) ?? throw new EntityNotFoundException();
     }
 
+    public async Task<string> LoginAsync(LoginUserDto dto)
+    {
+        AppUser user = await _userManager.FindByNameAsync(dto.Username) ?? throw new EntityNotFoundException("Something went wrong!");
+
+        if(!await _userManager.CheckPasswordAsync(user, dto.Password)) throw new UserLoginCouldNotBeVerifiedException();
+
+        IEnumerable<Claim> payload =
+        [
+            new("FirstName", user.FirstName ?? "null"),
+            new("LastName", user.LastName ?? "null"),
+            new("UserName", user.UserName ?? "null"),
+            new("Email", user.Email ?? "null"),
+            new("PhoneNumber", user.PhoneNumber ?? "null")
+        ];
+
+        return _jwtTokenService.GenerateToken(payload);
+    }
+
     public async Task RegisterAsync(CreateUserDto dto)
     {
         AppUser user = _mapper.Map<AppUser>(dto);
@@ -71,6 +96,8 @@ public class AccountService : IAccountService
 
         IdentityResult result = await _userManager.CreateAsync(user, dto.Password);
         if (!result.Succeeded) throw new UserCouldNotBeCreatedException();
+
+        await _userManager.AddToRoleAsync(user, UserRoles.User.ToString());
 
         string userToken = await _userManager.GenerateEmailConfirmationTokenAsync(user);
         HttpRequest request = _httpContextAccessor.HttpContext.Request;

@@ -48,6 +48,22 @@
   },
   {
     "ContainingType": "EmployeeManagement.API.Controllers.AccountsController",
+    "Method": "Login",
+    "RelativePath": "api/v1/Accounts/Login",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "EmployeeManagement.BL.DTOs.LoginUserDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EmployeeManagement.API.Controllers.AccountsController",
     "Method": "Register",
     "RelativePath": "api/v1/Accounts/Register",
     "HttpMethod": "POST",

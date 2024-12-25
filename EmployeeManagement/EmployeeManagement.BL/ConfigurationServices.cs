@@ -1,4 +1,6 @@
-﻿using EmployeeManagement.BL.Services.Abstractions;
+﻿using EmployeeManagement.BL.ExternalServices.Implementations;
+using EmployeeManagement.BL.ExternalServices.Interfaces;
+using EmployeeManagement.BL.Services.Abstractions;
 using EmployeeManagement.BL.Services.Implementations;
 using EmployeeManagement.BL.Utilities;
 using FluentValidation.AspNetCore;
@@ -23,5 +25,6 @@ public static class ConfigurationServices
         services.AddScoped<IEmployeeService, EmployeeService>();
         services.AddScoped<IAccountService, AccountService>();
         services.AddScoped<EmailService, EmailService>();
+        services.AddSingleton<IJWTTokenService, JWTTokenService>();
     }
 }
